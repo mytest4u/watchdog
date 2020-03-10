@@ -1,10 +1,8 @@
 # watchdog
 Watchdog Test Neuer oder alter Bootloader?
 
-/*
-  Watchdog Test mit internerem Timer
-  Nur mit neuem Bootloader richtig zu nutzen !
-*/
+Watchdog Test mit internerem Timer
+Nur mit neuem Bootloader richtig zu nutzen !
 
 #include <avr/wdt.h>
  
@@ -20,7 +18,7 @@ Watchdog Test Neuer oder alter Bootloader?
   //wdt_enable(WDTO_4S);
   //wdt_enable(WDTO_8S);
 
-// ---- Watchdog Befehle ---
+---- Watchdog Befehle ---
     wdt_disable();        // WD ausschalten
     wdt_enable(WDTO_8S);  // WD einschalten 
     wdt_reset();          // WD zurücksetzen 
