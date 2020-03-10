@@ -4,6 +4,12 @@ Watchdog Test Neuer oder alter Bootloader?
 Watchdog Test mit internerem Timer
 Nur mit neuem Bootloader richtig zu nutzen !
 
+Wer sicher gehen will dass seine Anwendung auf dauer störungsfrei läuft kommt um die Funktion nicht herum.
+Voraussetzung ist ein neuer Bootloader. 
+Mit dem alten Bootloader hängt sich der Arduino im Bootmenü auf.
+
+Hier ein einfaches Testprogramm zum ausprobieren.
+
 #include <avr/wdt.h>
  
   //Die Dauer, bis der Watchdog auslösen soll
