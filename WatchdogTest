@@ -1,6 +1,8 @@
 /*
   Watchdog Test mit internerem Timer
   Nur mit neuem Bootloader richtig zu nutzen !
+  
+  Achtung! Nach Update nicht vergessen unter Werkzeuge Bootloader umzustellen (neu bzw. alt) !
 */
 
 #include <avr/wdt.h>
